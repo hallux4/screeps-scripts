@@ -15,6 +15,7 @@ module.exports.loop = function () {
     Game.spawns['Spawn1'].createCreep([CARRY, MOVE, WORK], 'upgrader7', {role: 'upgrader'});
     Game.spawns['Spawn1'].createCreep([CARRY, MOVE, WORK], 'upgrader8', {role: 'upgrader'});
     Game.spawns['Spawn1'].createCreep([CARRY, MOVE, WORK], 'upgrader9', {role: 'upgrader'});
+    //Game.spawns['Spawn1'].createCreep([CARRY, MOVE, WORK], 'upgrader9', {role: 'upgrader'});
     
     
     var tower = 0; Game.getObjectById('2a428d5f087b8fb11656db33');
